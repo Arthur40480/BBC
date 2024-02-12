@@ -1,0 +1,8 @@
+.image-container {
+    display: flex; /* Utiliser Flexbox */
+  }
+  
+  .image-container img {
+    flex: 0 0 auto; /* Empêcher le rétrécissement des images */
+    width: 25%; /* Chaque image occupe 25% de la largeur du conteneur */
+  }

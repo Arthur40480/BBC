@@ -1,8 +1,19 @@
 .image-container {
-    display: flex; /* Utiliser Flexbox */
-  }
+    
+    display: flex;
+    flex-wrap: wrap;
+
+ 
   
-  .image-container img {
-    flex: 0 0 auto; /* Empêcher le rétrécissement des images */
-    width: 25%; /* Chaque image occupe 25% de la largeur du conteneur */
-  }
+}
+.image-container div {
+    flex-basis: calc(33.33% - 20px); /* Répartir l'espace sur trois colonnes avec une marge de 20px */
+    margin: 10px; /* Ajouter une marge entre les éléments */
+    text-align: center; /* Centrer le contenu */
+}
+  
+.image-containerimg {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}

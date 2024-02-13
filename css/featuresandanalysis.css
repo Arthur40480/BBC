@@ -1,49 +1,91 @@
-body {
-    max-width: 960px; /* Définir la largeur maximale de la page */
-    margin: 0 auto; /* Centrer la page horizontalement */
-    padding: 0 20px; /* Ajouter un peu d'espacement sur les côtés */
-}
+
 
 article-container {
     max-width: 800px; /* Définir la largeur maximale des articles */
-    margin: 0 auto; /* Centrer les articles horizontalement */
+    margin:  0; 
+
 }
 
-.image-container {
-    
+
+.main-container{
+    /* background-color: aqua; */
+    max-width: 80;
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+}
+#titre-article {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.feature-article {
     display: flex;
-    /* flex-wrap: wrap;  */
-    justify-content: space-between;
-
- 
-  
+    max-width: 40%;
+    
+    /* background-color: pink; */
 }
 
-.image-item {
-    width: calc(33.33% - 20px); /* 1/3 de la largeur avec un espace entre */
-    margin-bottom: 20px; /* Espace sous chaque image */
-    text-align: center; /* Alignement centré du texte */
-    }
+.big-image {
+    margin-bottom: 20px;
+}
 
-.image-item img {
-    width: 100%;
-    height: auto;
+.big-image img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.big-image h3 {
+    font-size: 1.5em;
+}
+
+.image-container {   
+    display: flex; 
+    flex-direction: column;
+
+    /* background-color: brown;*/
+} 
+
+.first-row{
+    display: flex;
+    font-size: 90%;
+    line-height: 1;
+    margin-bottom: 10px;
     
 }
-  
+    /* background-color: blueviolet; */
 
-.image-caption {
-margin-top: 5px; /* Ajoutez un espace entre l'image et le texte */
-text-align: center;  
-/* width: 100%; 
-height: auto; */
-/* overflow-wrap: break-word; */
+.first-row {
+    flex-wrap: nowrap; 
 }
+
+.second-row {
+    display: flex;
+    width: 100%; 
+    font-size: 90%;
+    line-height: 1;
+}
+    /* background-color: yellow; */
+.first-row img,
+.second-row img {
+margin-right: 10px; /* Espacement entre les images */
+}
+
+
 
 @media only screen and (min-width: 768px){
-.principal {
-    display : flex;  
-    justify-content: flex-start;
+     .big-image,
+     .image-container {
+    display : flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;  
+    
     
 }
+.big-image {
+    margin-right: 20px; /* Espacement entre la grande image et les images */
+}
+.image-item {
+    flex: 0 0 auto; /* Empêche les images de s'étirer pour s'adapter */
+    margin-right: 20px;
+}
+
 }

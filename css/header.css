@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.first-div-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+.homepage-link {
+    display: flex;
+}
+
+.homepage-link p {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 3px 8px;
+    margin: 3px;
+}
+
+.container-account-link {
+    margin: 20px;
+    position: relative;
+}
+
+.container-account-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(1, 120, 255); 
+    visibility: hidden; 
+    transition: width 0.3s ease;
+}
+
+.container-account-link:hover::after {
+    width: 100%;
+    visibility: visible;
+}
+
+.account-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.account-link span{
+    margin-left: 5px;
+    color: black;
+}
+
+.account-link::after {
+    content: "";
+    height: 1.5rem;
+    width: 1px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: .5rem;
+    background: rgba(0,0,0,.15);
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list a {
+color: black;
+}
+
+.nav-list li {
+    margin-right: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-list li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    width: 0;
+    height: 2px;
+    background-color: black; 
+    visibility: hidden; 
+    transition: width 0.3s ease;
+}
+
+.nav-list li:hover::after {
+    width: 100%;
+    visibility: visible;
+}
+
+.nav-list li:nth-child(1)::after {
+    background-color: rgb(0, 0, 0); 
+}
+
+.nav-list li:nth-child(2)::after {
+    background-color: rgb(235, 0, 0); 
+}
+
+.nav-list li:nth-child(3)::after {
+    background-color: rgb(255, 210, 48); 
+}
+
+.nav-list li:nth-child(4)::after {
+    background-color: rgb(170, 255, 0); 
+}
+
+.nav-list li:nth-child(5)::after {
+    background-color: rgb(0, 104, 255); 
+}
+
+.nav-list li:nth-child(6)::after {
+    background-color: rgb(0, 82, 161); 
+}
+
+.nav-list li:nth-child(7)::after {
+    background-color: rgb(88, 158, 80); 
+}
+
+.nav-list li:nth-child(8)::after {
+    background-color: rgb(72, 40, 120); 
+}
+
+.nav-list li:nth-child(9)::after {
+    background-color: rgb(0, 0, 0); 
+    bottom: -18px;
+}
+
+.container-header-right {
+    display: flex;
+    align-items: center;
+}
+
+.container-header-button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 10px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.container-header-button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    width: 0;
+    height: 2px;
+    background-color: black; 
+    visibility: hidden; 
+    transition: width 0.3s ease;
+}
+
+.container-header-button:hover::after {
+    width: 100%;
+    visibility: visible;
+}
+
+.container-header-button span {
+    display: inline-block;
+    width: 4px; 
+    height: 4px; 
+    background-color: black; 
+    margin-right: 5px; 
+}
+
+.container-header-form {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 200px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.container-header-form svg {
+    margin: 0 10px;
+}
+
+.container-header-form:hover {
+    cursor: pointer;
+    background-color: rgb(230, 232, 234);
+}
+
+.second-div-header {
+    color: white;
+    height: 56px;
+    background-color: rgb(184, 0, 0);
+    position: relative;
+}
+
+.second-div-header h2{
+    position: absolute;
+    left: 382px;
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+.third-div-header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(184, 0, 0);
+    font-size: 14px;
+}
+
+.third-div-header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0 0 10px 382px;
+}
+
+.third-div-header li {
+    padding: 0 10px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(187, 69, 79);
+    position: relative;
+}
+
+.third-div-header li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 4px;
+    background-color: white; 
+    visibility: hidden; 
+    transition: width 0.3s ease;
+}
+
+.third-div-header li:nth-child(1)::after {
+    width: 100%;
+    visibility: visible;
+}
+
+.third-div-header li:hover::after {
+    width: 100%;
+    visibility: visible;
+}
+
+.third-div-header li:nth-child(14):hover::after {
+    visibility: hidden;
+}
+
+.third-div-header li:nth-child(14):hover {
+    background-color: rgb(30, 30, 30);
+}
+
+.third-div-header a{
+    color: white;
+}
+
+.publicity-section {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.publicity-section img {
+    margin: 20px;
+}
+
+

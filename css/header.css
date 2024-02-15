@@ -9,13 +9,19 @@ a {
     text-decoration: none;
 }
 
-.first-div-header {
+.first-div-header{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logosingin{
     display: flex;
     align-items: center;
 }
 
-.logo-header {
+.logo-header{
     display: flex;
 }
 
@@ -221,6 +227,7 @@ color: black;
     border-left-style: solid;
     border-left-color: rgb(187, 69, 79);
     position: relative;
+    margin-right: 3px;
 }
 
 .third-div-header li::after {

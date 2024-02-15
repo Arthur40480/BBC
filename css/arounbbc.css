@@ -15,7 +15,7 @@
 }
 
 .bbccard{
-    width: 229px;
+    width: 16rem;
 }
 
 .titlebbc{
@@ -31,5 +31,5 @@
 }
 
 .bbcsmallarticle{
-    width: 800px;
+    width: 100%;
 }

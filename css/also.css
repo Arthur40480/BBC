@@ -13,11 +13,11 @@
      display: flex;
 }
 .alsosmallarticle{
-    width: 800px;
+    width: 100%;
 }
 
 .cardalso{
-    width: 229px;
+    width: 16rem;
 }
 
 .titlealso{

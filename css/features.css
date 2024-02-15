@@ -62,12 +62,14 @@
     margin: 5px 0 5px 0;
 }
 
+
 .lineline{
     text-align: center;
     margin: auto;
 }
 
 .line{
+    width: 100%;
     margin-top: 5px 0 0 0;
 }
 

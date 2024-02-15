@@ -4,8 +4,6 @@
 
 .firstcontainer{
     display: flex;
-    width: 64%;
-    margin: auto;
 }
 
 
@@ -74,8 +72,6 @@
 }
 
 .block1{
-    width: 64%;
-    margin: auto;
     padding-top: 10px;
 }
 
@@ -92,11 +88,6 @@
 
 .hours{
     margin: 15px 0;
-}
-
-.pub2b{
-    width: 66%;
-    margin: auto;
 }
 
 .principalcontainer{

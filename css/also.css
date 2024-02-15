@@ -1,0 +1,30 @@
+.alsonews{
+    margin-top: 50px;
+}
+
+.also1{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+}
+
+.alsotrois1 , .alsotrois2{
+    justify-content: space-between;
+     display: flex;
+}
+.alsosmallarticle{
+    width: 800px;
+}
+
+.cardalso{
+    width: 229px;
+}
+
+.titlealso{
+    font-size: 26px;
+}
+
+.alsoarticleprincipal{
+    width: 492px;
+    margin-right: 15px;
+}

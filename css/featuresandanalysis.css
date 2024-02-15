@@ -1,95 +1,29 @@
 
-
-article-container {
-    max-width: 800px; /* Définir la largeur maximale des articles */
-    margin:  0; 
-
-}
-
-
-.main-container{
-    /* background-color: aqua; */
-    max-width: 80;
-    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
-}
-#titre-article {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.feature-article {
+.analysis {
+    justify-content: space-between;
     display: flex;
-    max-width: 40%;
+    margin-top: 20px;
     
     /* background-color: pink; */
 }
 
-.big-image {
-    margin-bottom: 20px;
-}
-
-.big-image img {
-    display: block;
-    margin-bottom: 10px;
-}
-
-.big-image h3 {
-    font-size: 1.5em;
-}
-
-.image-container {   
-    display: flex; 
-    flex-direction: column;
-
-    /* background-color: brown;*/
-} 
-
-.first-row{
+.analysistrois1 , .analysistrois2{
     display: flex;
-    font-size: 90%;
-    line-height: 1;
-    margin-bottom: 10px;
-    
-}
-    /* background-color: blueviolet; */
-
-.first-row {
-    flex-wrap: nowrap; 
+    justify-content: space-between;
 }
 
-.second-row {
-    display: flex;
-    width: 100%; 
-    font-size: 90%;
-    line-height: 1;
-}
-    /* background-color: yellow; */
-.first-row img,
-.second-row img {
-margin-right: 10px; /* Espacement entre les images */
+.analysissmall{
+    width: 800px;
 }
 
-
-
-@media only screen and (min-width: 768px){
-     .big-image,
-     .image-container {
-    display : flex;
-    flex-wrap: nowrap;
-    align-items: flex-start;  
-    
-    
-}
-<<<<<<< HEAD
-.big-image {
-    margin-right: 20px; /* Espacement entre la grande image et les images */
-}
-.image-item {
-    flex: 0 0 auto; /* Empêche les images de s'étirer pour s'adapter */
-    margin-right: 20px;
+.analysiscard{
+    width: 229px;
 }
 
+.analysisarticleprincipal{
+    margin-right: 15px;
 }
-=======
+
+.analysistitle{
+    font-size: 25px;
 }
->>>>>>> dccac08024a6dd8bef432ce64e328941f6bca129

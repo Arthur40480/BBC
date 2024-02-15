@@ -1,0 +1,35 @@
+.aroundbbc{
+    margin-top: 30px;
+}
+
+.bbc{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.bbcarticletrois1 , .bbcarticletrois2{
+    justify-content: space-between;
+    display: flex;
+}
+
+.bbccard{
+    width: 229px;
+}
+
+.titlebbc{
+    font-size: 26px;
+}
+
+.bbclink{
+    margin-top: 10px;
+}
+
+.bbcarticletrois2{
+    margin-top: 15px;
+}
+
+.bbcsmallarticle{
+    width: 800px;
+}

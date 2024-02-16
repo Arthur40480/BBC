@@ -1,0 +1,26 @@
+
+.analysis {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    
+    /* background-color: pink; */
+}
+
+.analysistrois1 , .analysistrois2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.analysissmall{
+    width: 80%;
+}
+
+.analysiscard{
+    margin-left: 5px;
+    width: 16rem;
+}
+
+.analysistitle{
+    font-size: 25px;
+}

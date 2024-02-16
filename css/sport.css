@@ -1,0 +1,32 @@
+.sport{
+    margin-top: 30px;
+}
+
+.articlesportdeux{
+    display: flex;
+    margin-right: 15px;
+}
+
+.titlesport{
+    font-size: 25px;
+}
+
+.principalsport{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+}
+
+.sportarticletrois1 , .sportarticletrois2{
+    justify-content: space-between;
+    display: flex;
+}
+
+.sportcard{
+    margin-left: 8px;
+    width: 16rem;
+}
+
+.sportarticletrois2{
+    margin-top: 15px;
+}

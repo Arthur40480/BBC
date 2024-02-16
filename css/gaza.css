@@ -1,0 +1,14 @@
+.gazawar{
+    margin-top: 50px;
+}
+
+.gaza{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gazacard{
+    margin: 5px;
+    width: 16rem;
+}

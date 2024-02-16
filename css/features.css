@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+.firstcontainer{
+    display: flex;
+}
+
+
+
+.article1 , .articleimage{
+    display: flex;
+}
+.rafah{
+    margin: 0 10px 0 10px;
+}
+
+.un{
+    color: #B80000;
+}
+.live{
+    margin: 0 10px 0 10px;
+}
+.live h2{
+    margin: 0;
+}
+
+.link{
+    
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: #B80000;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardy{
+    margin-top: 15px;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+}
+.cardtitle{
+    margin: 5px 0 5px 0;
+}
+.card p{
+    margin: 5px 0 5px 0;
+}
+
+.card{
+    margin-right: 8px;
+}
+
+
+.lineline{
+    text-align: center;
+    margin: auto;
+}
+
+.line{
+    width: 100%;
+    margin-top: 5px 0 0 0;
+}
+
+.block1{
+    padding-top: 10px;
+}
+
+.block5line , .block3line{
+
+    margin: 10px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkarticle{
+    width: 16rem;
+}
+
+.hours{
+    margin: 15px 0;
+}
+
+.principalcontainer{
+   margin: 25px 0 45px 0;
+}
+

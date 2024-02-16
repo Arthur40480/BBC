@@ -2,10 +2,708 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=git, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/bbc.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link href="https://db.onlinewebfonts.com/c/a1d0120b37754be8e80e39ab6ab95130?family=BBC+Reith+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/watched.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/also.css">
+    <link rel="stylesheet" href="css/gaza.css">
+    <link rel="stylesheet" href="css/mostread.css">
+    <link rel="stylesheet" href="css/arounbbc.css">
+    <link rel="stylesheet" href="css/sport.css">
+    <link rel="stylesheet" href="css/featuresandanalysis.css">
+
+    <title>Home - BBC News</title>
 </head>
+
 <body>
-    
+    <div class="centerheader">
+        <header>
+            <div class="first-div-header">
+                <div class="logosingin">
+                    <div class="logo-header">
+                        <svg width="112" height="32" viewBox="0 0 112 32" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M8.99999 6.99999H15.7552C17.7458 6.99999 19.2878 7.39887 20.3811 8.19576C21.4741 8.99309 22.021 10.1385 22.021 11.6321C22.021 12.4881 21.8252 13.2308 21.4335 13.8601C21.0419 14.4894 20.4625 14.9891 19.6958 15.358C20.7563 15.7104 21.5682 16.2686 22.1311 17.0321C22.6941 17.796 22.9755 18.7232 22.9755 19.814C22.9755 20.8882 22.7021 21.8114 22.1555 22.5832C21.6087 23.3553 20.8296 23.9513 19.8182 24.3706C18.8062 24.7903 17.5909 25 16.1713 25H8.99999V6.99999ZM0 32H32V0H0V32ZM48.9999 6.99999H55.7551C57.7457 6.99999 59.2877 7.39887 60.3811 8.19576C61.4741 8.99309 62.0209 10.1385 62.0209 11.6321C62.0209 12.4881 61.8251 13.2308 61.4334 13.8601C61.0419 14.4894 60.4624 14.9891 59.6957 15.358C60.7562 15.7104 61.568 16.2686 62.1311 17.0321C62.694 17.796 62.9753 18.7232 62.9753 19.814C62.9753 20.8882 62.7019 21.8114 62.1554 22.5832C61.6087 23.3553 60.8297 23.9513 59.818 24.3706C58.8062 24.7903 57.5908 25 56.1712 25H48.9999V6.99999ZM39.9999 32H71.9999V0H39.9999V32ZM55.8775 17.2209H52.6469V22.0797H55.8286C56.9216 22.0797 57.7622 21.8743 58.3497 21.4629C58.9369 21.0518 59.2308 20.4602 59.2308 19.6881C59.2308 18.0435 58.1128 17.2209 55.8775 17.2209ZM55.4125 9.92026C57.3541 9.92026 58.3252 10.6338 58.3252 12.06C58.3252 12.7988 58.0763 13.3735 57.5787 13.7846C57.0808 14.196 56.3588 14.4014 55.4125 14.4014H52.6469V9.92026H55.4125ZM15.4126 9.92026C17.3542 9.92026 18.3253 10.6338 18.3253 12.06C18.3253 12.7988 18.0763 13.3735 17.5787 13.7846C17.0808 14.196 16.3588 14.4014 15.4126 14.4014H12.6469V9.92026H15.4126ZM15.8776 17.2209H12.6469V22.0797H15.8287C16.9217 22.0797 17.7623 21.8743 18.3497 21.4629C18.937 21.0518 19.2308 20.4602 19.2308 19.6881C19.2308 18.0435 18.1129 17.2209 15.8776 17.2209ZM100.391 24.8338C101.373 24.5956 102.237 24.2706 102.982 23.8592V20.4292C101.407 21.4001 99.6879 21.8851 97.8249 21.8851C96.6052 21.8851 95.5677 21.6549 94.7125 21.1942C93.857 20.7338 93.2048 20.0633 92.7562 19.1831C92.3071 18.3032 92.0829 17.238 92.0829 15.9876C92.0829 14.7377 92.3155 13.6766 92.7814 12.8045C93.2472 11.9327 93.9161 11.2665 94.7887 10.8058C95.6608 10.3454 96.7153 10.1148 97.9519 10.1148C98.8494 10.1148 99.705 10.2343 100.518 10.4726C101.331 10.7113 102.084 11.0609 102.779 11.5212V8.01737C102.017 7.62259 101.191 7.32259 100.302 7.1167C99.4128 6.91126 98.4683 6.80826 97.4691 6.80826C96.0292 6.80826 94.7292 7.02226 93.5691 7.44981C92.4088 7.87781 91.4136 8.4947 90.5839 9.30048C89.7537 10.1067 89.1187 11.0732 88.6783 12.1999C88.2377 13.3269 88.0176 14.5896 88.0176 15.9876C88.0176 17.4188 88.2295 18.7062 88.6529 19.8493C89.0761 20.9929 89.6859 21.9591 90.4822 22.7488C91.2782 23.5383 92.252 24.143 93.404 24.5624C94.5557 24.9819 95.8515 25.1917 97.2912 25.1917C98.375 25.1917 99.4085 25.0721 100.391 24.8338ZM112 32H79.9998V4.44444e-05H112V32Z"></path> </svg>           
+                    </div>
+                        <div class="container-account-link">
+                            <a href="" class="account-link">
+                                <svg width="30" height="30" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path fill="#000000" d="M16 17.5a7.878 7.878 0 01-8-7.75A7.878 7.878 0 0116 2a7.878 7.878 0 018 7.75 7.878 7.878 0 01-8 7.75zM2 30c0-5.883 7.519-10 14.014-10C22.48 20 30 24.12 30 29.994c0 .005-28 .007-28 .005z"/><script xmlns="" id="bw-fido2-page-script"/></svg>
+                                <span> Sign in</span>
+                            </a>
+                        </div>
+                    </div>
+                <nav>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">News</a>
+                        </li>
+                        <li>
+                            <a href="">Sport</a>
+                        </li>
+                        <li>
+                            <a href="">Earth</a>
+                        </li>
+                        <li>
+                            <a href="">Reel</a>
+                        </li>
+                        <li>
+                            <a href="">Worklife</a>
+                        </li>
+                        <li>
+                            <a href="">Travel</a>
+                        </li>
+                        <li>
+                            <a href="">Culture</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="container-header-right">
+                    <div class="container-header-button">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="container-header-form">
+                        <svg class="orbit-search-button-icon-with-text" width="15" height="16" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path d="M6,-5.32907052e-15 C9.3137085,-5.32907052e-15 12,2.6862915 12,6 C12,7.43892143 11.4934776,8.75953821 10.6490096,9.79327337 L15,14.24 L13.2782609,16 L8.72578477,11.3465317 C7.90789326,11.7643456 6.98146665,12 6,12 C2.6862915,12 -1.687539e-14,9.3137085 -1.687539e-14,6 C-1.687539e-14,2.6862915 2.6862915,-5.32907052e-15 6,-5.32907052e-15 Z M6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 Z"></path> </svg>
+                        <span>
+                            Search BBC
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="secthird">
+            <div class="second-div-header">
+                <div class="title-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" focusable="false" width="120px" viewBox="0 0 430.39658 110.75903" enable-background="new 3367.9 3.96 61 15.33" preserveAspectRatio="xMinYMin meet"><path d="M68.982,108.52892q-11.5965-18.582-23.49-37.242-11.895-18.6555-23.49-36.2v73.442H0V2.23092H23.192q12.042,17.9895,23.713,36.052,11.66852,18.063,23.266,36.646V2.22992H92.174v106.298H68.982Zm44.259-106.298h73.145v19.029h-50.25v23.044h44.601v19.029H136.136v26.166h53.075v19.03h-75.97Zm177.914,106.298q-5.055-17.98651-9.886-35.978-4.833-17.9865-9.441-35.978-4.45948,17.9895-9.217,35.978-4.7595,17.991-9.812,35.978H228.566q-7.5825-26.0145-14.57-52.629-6.99-26.6115-13.231-53.67h24.976q3.71545,20.6655,7.88,41.33,4.1595,20.667,8.771,40.586,9.95852-38.802,18.881-77.456h22.3q4.461,19.032,9.143,37.985,4.683,18.95547,9.589,37.836,4.461-19.62453,8.623-39.843,4.15951-20.2155,7.73-40.438h24.531q-6.2445,27.06-13.231,53.67-6.99,26.613-14.57,52.629Zm95.37,2.23a78.3712,78.3712,0,0,1-17.32-1.933,66.25651,66.25651,0,0,1-16.428-6.096v-20.516a63.9326,63.9326,0,0,0,33.748,9.664q10.10857,0,15.387-3.419a10.74975,10.74975,0,0,0,5.278-9.515,9.75149,9.75149,0,0,0-2.602-7.211,18.55926,18.55926,0,0,0-6.913-4.163,99.45515,99.45515,0,0,0-9.663-2.899,110.6498,110.6498,0,0,1-15.462-4.757,45.038,45.038,0,0,1-11.299-6.319,23.84449,23.84449,0,0,1-6.987-8.771,28.94176,28.94176,0,0,1-2.379-12.265,29.44592,29.44592,0,0,1,5.129-17.395A32.71617,32.71617,0,0,1,371.51,3.93892q9.366-3.9375,22.3-3.939a72.22352,72.22352,0,0,1,16.651,1.933,67.68455,67.68455,0,0,1,14.718,5.204v20.219a56.13379,56.13379,0,0,0-14.792-6.244,63.27662,63.27662,0,0,0-16.577-2.231q-9.07045,0-14.049,3.122a9.935,9.935,0,0,0-4.981,8.92,9.09272,9.09272,0,0,0,2.379,6.616,17.3599,17.3599,0,0,0,6.765,4.014q4.383,1.5615,10.332,3.048,7.58248,1.935,14.124,4.237a45.86268,45.86268,0,0,1,11.521,5.872,24.45917,24.45917,0,0,1,7.731,9.069,30.06172,30.06172,0,0,1,2.75,13.529q0,10.55852-5.203,18.063a32.29,32.29,0,0,1-15.016,11.447Q400.353,110.75842,386.525,110.75892Z" transform="translate(0 0.0001)" style="fill:#fff"></path></svg>
+                </div>
+            </div>
+            <div class="third-div-header">
+                <div class="centerulheader">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="">Home</a>
+                            </li>
+                            <li>
+                                <a href="">Israel-Gaza war</a>
+                            </li>
+                            <li>
+                                <a href="">War in Ukraine</a>
+                            </li>
+                            <li>
+                                <a href="">Climate</a>
+                            </li>
+                            <li>
+                                <a href="">Video</a>
+                            </li>
+                            <li>
+                                <a href="">World</a>
+                            </li>
+                            <li>
+                                <a href="">UK</a>
+                            </li>
+                            <li>
+                                <a href="">Business</a>
+                            </li>
+                            <li>
+                                <a href="">Tech</a>
+                            </li>
+                            <li>
+                                <a href="">Science</a>
+                            </li>
+                            <li>
+                                <a href="">Entertainment & Arts</a>
+                            </li>
+                            <li>
+                                <a href="">Health</a>
+                            </li>
+                            <li>
+                                <a href="">World News TV</a>
+                            </li>
+                            <li>
+                                <a href="">More</a>
+                                <span></span>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="publicity-section">
+        <div class="pubsection1"><a href="#"><img src="img/Pub1.PNG" alt="Image publicitaire"></a></img></div>
+    </section>
+
+    <article>
+        <div class="centerarticle">
+            <div class="principalcontainer">
+                <div class="firstcontainer">
+                    <div class="principal1">
+                        <div class="article1">
+                            <div class="articlelink">
+                                <div class="articleimage">
+                                    <div class="live">
+                                        <h2><span class = "un"><span class="deux"># </span>Live</span><a class= link href="#"> Israeli strikes kill dozens in rafah as raid rescues two hostages</a></h2>
+                                        <div>
+                                            The two rescued men are in "good medical condition", 
+                                            Israel says. The Hamas-run health ministry says the strikes killed at least 67 people.
+                                        </div>
+                                        <div><p>World</p></div>
+                                    </div>
+                                    <div class="image1">
+                                        <div><img src="img/first part/Capture.PNG" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="links">
+                                    <div class="linkdiv">
+                                        <p><img src="img/first part/point1.PNG" alt=""><a href="#" class="link" > Rafah: The next battle?</a></p>
+                                    </div>
+                                    <div class="linkdiv">
+                                        <p><img src="img/first part/triangle.PNG" alt=""><a href="#" class="link"> Israeli military says released<br> hostages 'in good condition'’</a></p>
+                                    </div>
+                                    <div class="linkdiv">
+                                        <p><img src="img/first part/point1.PNG" alt=""><a href="#" class="link"> Israel-Gaza war: Death and<br> Israel’s search for ‘total victory’</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rafah">
+                                <div class="imgrafah"><img src="img/first part/Capture2.PNG" alt="" width="240rem"></div>
+                                <div class="rafahtitle">
+                                    <h3><a class="link" href="#">rafah : The next battle ?</a></h3>
+                                    <div>
+                                        Israel says it will expand its military operations all the way south into Rafah.
+                                    </div>
+                                    <div><p><span><img src="img/first part/3h.PNG" alt=""></span><a href="#" class="link"> Middle East</a> </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article2">
+                            <div class="cardy">
+                                <div class="card">
+                                    <div class="img"><img src="img/first part/Capture3.PNG" alt=""width="100%"></div>
+                                    <h3 class="cardtitle"><a href="#" class="link">chiefs beat 49ers in overtime to defend Super Bowl title</a></h3>
+                                    <p>
+                                        The Kansas City Chiefs fight back to beat the San Francisco 49ers 25-22 in overtime and win their third Super Bowl in five years.
+                                    </p>
+                                    <div class="hours"><img src="img/first part/10h.PNG" alt="" ><a href="#" class="link"> Usa</a></div>
+                                </div> 
+                                <div class="card">
+                                    <div class="img"><img src="img/first part/Capture4.PNG" alt="" width="100%"></div>
+                                    <h3 class="cardtitle"><a href="#" class="link">chiefs beat 49ers in overtime to defend Super Bowl title</a></h3>
+                                    <p>
+                                        The Kansas City Chiefs fight back to beat the San Francisco 49ers 25-22 in overtime and win their third Super Bowl in five years.
+                                    </p>
+                                    <div class="hours"><img src="img/first part/7h.PNG" alt=""><a href="#" class="link"> Canada</a></div>
+                                </div>
+                                <div class="card">
+                                    <div class="img"><img src="img/first part/Capture5.PNG" alt="" width="100%"></div>
+                                    <h3 class="cardtitle"><a href="#" class="link">chiefs beat 49ers in overtime to defend Super Bowl title</a></h3>
+                                    <p>
+                                        The Kansas City Chiefs fight back to beat the San Francisco 49ers 25-22 in overtime and win their third Super Bowl in five years.
+                                    </p>
+                                    <div class="hours"><img src="img/first part/15h.PNG" alt=""><a href="#" class="link"> Usa</a></div>
+                                </div>
+                                <div class="card">
+                                    <div class="img"><img src="img/first part/Capture6.PNG" alt="" width="100%"></div>
+                                    <h3 class="cardtitle"><a href="#" class="link">chiefs beat 49ers in overtime to defend Super Bowl title</a></h3>
+                                    <p>
+                                        The Kansas City Chiefs fight back to beat the San Francisco 49ers 25-22 in overtime and win their third Super Bowl in five years.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pub">
+                        <div><a href="#"><img src="img/first part/pub.PNG" alt="" width="240rem"></a></div>
+                    </div>
+                </div>  
+                <div class="line">
+                    <div class="lineline"><img src="img/first part/line2.png" alt="" width="100%"></div>
+                </div>
+                <div class="block1">
+                    <div class="block5line">
+                        <div class="linkarticle">
+                            <a href="#" class="link">RFK Jr apologises to family over Super superbowl ad</a>
+                            <div class="hours"><img src="img/first part/12h.PNG" alt=""><a href="#" class="link"> US & Canada</a></div>
+                        </div>
+                        <div class="linkarticle">
+                            <a href="#" class="link">'Pirate of the seas' in big decline after bird flu</a>
+                            <div class="hours"><img src="img/first part/6h.PNG" alt=""><a href="#" class="link"> Sciences & Environment</a></div>
+                        </div>
+                        <div class="linkarticle">
+                            <a href="#" class="link">Landslide inches from luxury homes in California</a>
+                            <div class="hours"><img src="img/first part/9h.PNG" alt=""><a href="#" class="link"> US & canada</a></div>
+                        </div>
+                        <div class="linkarticle">
+                            <a href="#" class="link">Armed woman killed in shootout at Texas megachurch</a>
+                            <div class="hours"><img src="img/first part/7h.PNG" alt=""><a href="#" class="link"> US & canada</a></div>
+                        </div>
+                        <div class="linkarticle">
+                            <a href="#" class="link">UK chip designer Arm sees shares almost double</a>
+                            <div class="hours"><img src="img/first part/5h.PNG" alt=""><a href="#" class="link"> Buisness</a></div>
+                        </div>
+                    </div>
+                    <div class="block3line">
+                        <div class="linkarticle">
+                            <a href="#" class="link">Trump endorses daughter-in-law for RNC leadership</a>
+                            <div class="hours"><img src="img/first part/6h.PNG" alt=""><a href="#" class="link"> US & canada</a></div>
+
+                        </div>
+                        <div class="linkarticle">
+                            <a href="#" class="link">US defence chief cancels Nato trip after hospital admission</a>
+                            <div class="hours"><img src="img/first part/8h.PNG" alt=""><a href="#" class="link"> US & canada</a></div>
+                        </div>
+                        <div class="linkarticle">
+                            <a href="#" class="link">Europe 'needs a decade to build up arms stocks'</a>
+                            <div class="hours"><img src="img/first part/15h.PNG" alt=""><a href="#" class="link"> Europe</a></div>
+                        </div>
+                        <div class="linkarticle"> </div>
+                        <div class="linkarticle"> </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="lineline"><img src="img/first part/line2.png" alt="" width="100%"></div>
+                </div>
+                <div class="pub2a">
+                    <div class="pub2b"><img src="img/first part/pub2.PNG" alt="" width="100%"></div>
+                </div>
+            </div>
+
+            <div class="analysisprincipal">
+                <div class="line">
+                    <div class="lineline watchedline"><img src="image/analysisline.PNG" alt="" width="100%"></div>
+                </div>
+                <div class = "analysis">
+                    <div class="analysisarticleprincipal">
+                        <div><img src="image/2024-02-12_11h03_37.png" alt="" width="100%"></div>
+                        <div class="analysistitle"><a href="#" class="link">The blue devils Breathin fire into trinidad Carnivan</a></div>
+                    </div>
+                    <div class="analysissmall">
+                        <div class="analysistrois1">
+                            <div class="analysiscard">
+                                <div><img src="image/2024-02-13_13h25_08.png" alt="" width="100%"></div>
+                                <div><a href="#" class="link"></a></div>
+                            </div>
+                            <div class="analysiscard">
+                                <div><img src="image/2024-02-12_09h06_58.png" alt="" width="100%"></div>
+                                <div><a href="#" class="link">How Carey Mulligan stamped feminist mark on Maestro</a></div>
+                            </div>
+                            <div class="analysiscard">
+                                <div><img src="image/2024-02-12_11h50_49.png" alt="" width="100%"></div>
+                                <div><a href="#" class="link">The planespotter angering Taylor Swift and Elon Musk</a></div>
+                            </div>
+                            
+                        </div>
+                        <div class="analysistrois2">
+                            <div class="analysiscard">
+                                <div><img src="image/2024-02-12_09h07_10.png" alt="" width="100%"></div>
+                                <div><a href="#" class="link">Israel-Gaza War: Death and Israel's search for a 'total victory'</a></div>
+                            </div>
+                            <div class="analysiscard">
+                                <div><img src="image/2024-02-12_09h07_31.png" alt="" width="100%"></div>
+                                <div><a href="#" class="link">Faisal Islam: Russia's war economy cannot last but has bought time</a></div>
+                            </div>
+                            <div class="analysiscard">
+                                <div><img src="image/2024-02-12_09h07_23.png" alt="" width="100%"></div>
+                                <div><a href="#" class="link">Bad economy, nosy relatives: Young Chinese put off by Lunar New Year</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="article3">
+                <div class="articlemargin">
+                    <div class="line">
+                        <div class="lineline watchedline"><img src="img/most watched/mostline.PNG" alt="" width="100%"></div>
+                    </div>
+                    <div class="mostwatched">
+                        <div class="watched">
+                            <div class="number"><img src="img/most watched/un.png" alt=""></div>
+                            <div class="watchedcard"><img src="img/first part/triangle.PNG" alt=""><a href="#" class="link"> Watch: Huge fire engulfs new Swedish water park</a></div>
+                        </div>
+                        <div class="watched">
+                            <div class="number"><img src="img/most watched/deux.png" alt=""></div>
+                            <div class="watchedcard"><img src="img/first part/triangle.PNG" alt=""><a href="#" class="link"> Landslide inches from luxury homes in California</a></div>
+                        </div>
+                        <div class="watched">
+                            <div class="number"><img src="img/most watched/trois.png" alt=""></div>
+                            <div class="watchedcard"><img src="img/first part/triangle.PNG" alt=""><a href="#" class="link"> Watch: 'Whose daughter is she?' - on patrol with Gaza's paramedics</a></div>
+                        </div>
+                        <div class="watched">
+                            <div class="number"><img src="img/most watched/quattre.png" alt=""></div>
+                            <div class="watchedcard"><img src="img/first part/triangle.PNG" alt=""><a href="#" class="link"> BBC World Service</a></div>
+                        </div>
+                        <div class="watched">
+                            <div class="number"><img src="img/most watched/cinq.PNG" alt=""></div>
+                            <div class="watchedcard"><img src="img/first part/triangle.PNG" alt=""><a href="#" class="link"> Watch: Fireworks as giant Carnival sculptures roll through Rio</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="alsonews">
+                    <div class="line">
+                        <div class="lineline watchedline"><img src="img/also in news/alsoline.PNG" alt="" width="100%"></div>
+                    </div>
+                    <div class="also1">
+                        <div class="alsoarticleprincipal">
+                            <div class="img"><img src="img/also in news/also1.PNG" alt="" width="100%"></div>
+                            <div class="titlealso"><p><a href="#" class="link">Squishmallows says Build-A-Bear copied its toys</a></p></div>
+                        </div>
+                        <div class="alsosmallarticle">
+                            <div class="alsotrois1">
+                                <div class="cardalso">
+                                    <div><img src="img/also in news/also2.PNG" alt="" width="100%"></div>
+                                    <div><p><a href="#" class="link">Kiptum's last BBC interview before fatal accident</a></p></div>
+                                </div>
+                                <div class="cardalso">
+                                    <div><img src="img/also in news/also3.PNG" alt="" width="100%"></div>
+                                    <div><p><a href="#" class="link">Kylie Minogue to receive Brits global icon award</a></p></div>
+                                </div>
+                                <div class="cardalso">
+                                    <div><img src="img/also in news/also4.PNG" alt="" width="100%"></div>
+                                    <div><p><a href="#" class="link">Watch: Fireworks as giant Carnival sculptures roll through Rio</a></p></div>
+                                </div>
+                            </div>
+                            <div class="alsotrois2">
+                                <div class="cardalso">
+                                    <div><img src="img/also in news/also5.PNG" alt="" width="100%"></div>
+                                    <div><p><a href="#" class="link">How Vogue kept its cover shoot <br>of 40 famous stars secret</a></p></div>
+                                </div>
+                                <div class="cardalso">
+                                    <div><img src="img/also in news/also6.PNG" alt="" width="100%"></div>
+                                    <div><p><a href="#" class="link">'Lol hey guys' - Biden campaign joins TikTok</a></p></div>
+                                </div>
+                                <div class="cardalso">
+                                    <div><img src="img/also in news/also7.PNG" alt="" width="100%"></div>
+                                    <div><p><a href="#" class="link">Ivory Coast football fans flock to see victory parade</a></p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gazawar">
+                    <div class="line">
+                        <div class="lineline"><img src="img/gazawar/gazaline.PNG" alt="" width="95%"><a href="#" class="link"> See all</a></div>
+                    </div>
+                    <div class="gaza">
+                        <div class="gazacard">
+                            <div><img src="img/gazawar/gaza1.PNG" alt="" width="100%"></div>
+                            <div><a href="#" class="link">Why is Rafah the new focus in Gaza war?</a></div>
+                        </div>
+                        <div class="gazacard">
+                            <div><img src="img/gazawar/gaza2.PNG" alt="" width="100%"></div>
+                            <div><a href="#" class="link">What we know about Israel's Rafah hostage rescue raid</a></div>
+                        </div>
+                        <div class="gazacard">
+                            <div><img src="img/gazawar/gaza3.PNG" alt="" width="100%"></div>
+                            <div><a href="#" class="link">Israel to act on soldier misconduct after BBC investigation</a></div>
+                        </div>
+                        <div class="gazacard">
+                            <div><img src="img/gazawar/gaza4.PNG" alt="" width="100%"></div>
+                            <div><a href="#" class="link">Moment Israeli hostages reunite with family members</a></div>
+                        </div>
+                        <div class="gazacard">
+                            <div><img src="img/gazawar/gaza5.PNG" alt="" width="100%"></div>
+                            <div><a href="#" class="link">Palestinians sheltering in Rafah fear Israeli offensive</a></div>
+                        </div>
+        
+                    </div>
+                </div>
+                <div class="mostread">
+                    <div class="line">
+                        <div class="lineline"><img src="img/most read/readline.PNG" alt="" width="100%"></div>
+                    </div>
+                    <div class="mread">
+                        <div class="readarticlequattre1">
+                            <div class="readcard">
+                                <div class="number"><img src="img/most watched/un.PNG" alt=""></div>
+                                <div><a href="#" class="link linkread">US Senate passes $95bn support package for allies</a></div>
+                            </div>
+                            <div class="readcard">
+                                <div class="number"><img src="img/most watched/trois.PNG" alt=""></div>
+                                <div><a href="#" class="link linkread">Trump endorses daughter-in-law for RNC leadership</a></div>
+                            </div>
+                            <div class="readcard">
+                                <div class="number"><img src="img/most watched/cinq.PNG" alt=""></div>
+                                <div><a href="#" class="link linkread">Katy Perry to leave American Idol</a></div>
+                            </div>
+                            <div class="readcard">
+                                <div class="number"><img src="img/most read/sept.PNG" alt=""></div>
+                                <div><a href="#" class="link linkread">UK chip designer Arm sees shares almost double</a></div>
+                            </div>
+                            <div class="readcard">
+                                <div class="number"><img src="img/most read/neuf.PNG" alt=""></div>
+                                <div><a href="#" class="link linkread">What does Taylor mania mean for the globe?</a></div>
+                            </div>
+                        </div>
+                        <div class="readarticlequattre2">
+                            <div class="readcard">
+                                <div class="number"><img src="img/most watched/deux.PNG" alt=""></div>
+                                <div><a href="#" class="link linkread">Super Bowl most watched US show since Moon landing</a></div>
+                            </div>
+                            <div class="readcard">
+                                <div class="number"><img src="img/most watched/quattre.PNG" alt=""></div>
+                                <div><a href="#" class="link linkread">Why US economy is powering ahead of Europe's</a></div>
+                            </div>
+                            <div class="readcard">
+                                <div class="number"><img src="img/most read/six.PNG" alt=""></div>
+                                <div><a href="#" class="link linkread">Four Armenians killed in new border flare-up</a></div>
+                            </div>
+                            <div class="readcard">
+                                <div class="number"><img src="img/most read/huit.PNG" alt=""></div>
+                                <div><a href="#" class="link linkread">10 things we spotted in the Oscars class photo</a></div>
+                            </div>
+                            <div class="readcard">
+                                <div class="number"><img src="img/most read/dix.PNG" alt=""></div>
+                                <div><a href="#" class="link linkread">Armed woman killed in shootout at Texas megachurch</a></div>
+                            </div>
+                        </div>
+                        <div class="readpub">
+                            <div><a href="#"><img src="img/most read/pub3.PNG" alt=""></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aroundbbc">
+                    <div class="line">
+                        <div class="lineline"><img src="img/around bbc/aroundline.PNG" alt="" width="100%">
+                        </div>
+                        <div class="bbc">
+                            <div class="bbcarticle">
+                                <div><img src="img/around bbc/bbc1.PNG" alt="" width="100%"></div>
+                                <div><a href="#" class="link titlebbc">The truth about aphrodisiacs</a></div>
+                            </div>
+                            <div class="bbcsmallarticle">
+                                <div class="bbcarticletrois1">
+                                    <div class="bbccard">
+                                        <div><img src="img/around bbc/bbc2.PNG" alt="" width="100%"></div>
+                                        <div><a href="#" class="link">Carnival will be bigger than ever in Rio</a></div>
+                                        <div class="bbclink"><a href="#" class="link">BBC Worklife</a></div>
+                                    </div>
+                                    <div class="bbccard">
+                                        <div><img src="img/around bbc/bbc3.PNG" alt="" width="100%"></div>
+                                        <div><a href="#" class="link">The unsung birthplace of Black American culture</a></div>
+                                        <div class="bbclink"><a href="#" class="link">BBC Travel</a></div>
+                                    </div>
+                                    <div class="bbccard">
+                                        <div><img src="img/around bbc/bbc4.PNG" alt="" width="100%"></div>
+                                        <div><a href="#" class="link">New drama looks at Coco Chanel's Nazi connections</a></div>
+                                        <div class="bbclink"><a href="#" class="link">BBC Culture</a></div>
+                                    </div>
+                                </div>
+                                <div class="bbcarticletrois2">
+                                    <div class="bbccard">
+                                        <div><img src="img/around bbc/bbc5.PNG" alt="" width="100%"></div>
+                                        <div><a href="#" class="link">How unhealthy air changes your body and mind</a></div>
+                                        <div class="bbclink"><a href="#" class="link">BBC Future</a></div>
+                                    </div>
+                                    <div class="bbccard">
+                                        <div><img src="img/around bbc/bbc6.PNG" alt="" width="100%"></div>
+                                        <div><a href="#" class="link">Valentine's Day: Roses are out, self-care is in</a></div>
+                                        <div class="bbclink"><a href="#" class="link">BBC Worklife</a></div>
+                                    </div>
+                                    <div class="bbccard">
+                                        <div><img src="img/around bbc/bbc7.PNG" alt="" width="100%"></div>
+                                        <div><a href="#" class="link">Where to have a solo date in New York City</a></div>
+                                        <div class="bbclink"><a href="#" class="link">BBC travel</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sport">
+                    <div class="line">
+                        <div class="lineline"><img src="img/sport/sportline.PNG" alt="" width="95%"><a href="#" class="link"> See all</a></div>
+                    </div>
+                    <div class="principalsport">
+                        <div class="articlesport">
+                            <div class="articlesportdeux">
+                                <div><img src="img/sport/sport1.PNG" alt="" width="100%"></div>
+                                <div><img src="img/sport/sport2.PNG" alt="" width="100%"></div>
+                            </div>
+                            <div><a href="#" class="link titlesport">Man City claim first-leg win at FC Copenhagen</a></div>
+                            <div class="hours"><img src="img/first part/7h.PNG" alt=""><a href="#" class="link"> European Football</a></div>
+                        </div>
+                        <div class="smallarticlesport">
+                            <div class="sportarticletrois1">
+                                <div class="sportcard">
+                                    <div><img src="img/sport/sport3.PNG" alt="" width="100%"></div>
+                                    <div><a href="#" class="link">Torvill, Dean and the death of romance</a></div>
+                                    <div class="hours"><img src="img/first part/7h.PNG" alt=""><a href="#" class="link"> Winter Sport</a></div>
+                                </div>
+                                <div class="sportcard">
+                                    <div><img src="img/sport/sport4.PNG" alt="" width="100%"></div>
+                                    <div><a href="#" class="link">Superb Diaz strike earns Real Madrid win at Leipzig</a></div>
+                                    <div class="hours"><img src="img/first part/8h.PNG" alt=""><a href="#" class="link"> Europen Football</a></div>
+                                </div>
+                                <div class="sportcard">
+                                    <div><img src="img/sport/sport5.PNG" alt="" width="100%"></div>
+                                    <div><a href="#" class="link">How PSG may find blueprint for future in La Real</a></div>
+                                    <div class="hours"><img src="img/first part/10h.PNG" alt=""><a href="#" class="link"> European Football</a></div>
+                                </div>
+                            </div>
+                            <div class="sportarticletrois2">
+                                <div class="sportcard">
+                                    <div><img src="img/sport/sport6.PNG" alt="" width="100%"></div>
+                                    <div><a href="#" class="link">Reaching 100 Tests 'just a number' - Stokes</a></div>
+                                    <div class="hours"><img src="img/first part/13h.PNG" alt=""><a href="#" class="link"> Cricket</a></div>
+                                </div>
+                                <div class="sportcard">
+                                    <div><img src="img/sport/sport7.PNG" alt="" width="100%"></div>
+                                    <div><a href="#" class="link">Scotland seek admission of error from World Rugby</a></div>
+                                    <div class="hours"><img src="img/first part/15h.PNG" alt=""><a href="#" class="link"> Rugby Union</a></div>
+                                </div>
+                                <div class="sportcard">
+                                    <div><img src="img/sport/sport8.PNG" alt="" width="100%"></div>
+                                    <div><a href="#" class="link">Williamson back in England squad after injury</a></div>
+                                    <div class="hours"><img src="img/first part/13h.PNG" alt=""><a href="#" class="link"> Football</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <div class="centerfooter">
+            <div class="first-container-footer">
+                <div class="line footerline">
+                    <div class="lineline"><img src="img/footer/findline.PNG" alt="" width="100%"></div>
+                </div>
+                <div class="container-social-networks">
+                    <div class="first-social-networks">
+                        <svg class="twitter-icon" width="84" height="84" viewBox="0 0 44 44" class="ws-c-social-slice__icon ws-c-social-slice__icon--twitter" aria-hidden="true" focusable="false"><path d="M29.582 18.724c0-.164 0-.328-.01-.49a7.709 7.709 0 0 0 1.888-1.96 7.538 7.538 0 0 1-2.175.596 3.802 3.802 0 0 0 1.665-2.095 7.596 7.596 0 0 1-2.404.92 3.792 3.792 0 0 0-6.456 3.453 10.75 10.75 0 0 1-7.805-3.957 3.79 3.79 0 0 0 1.173 5.056 3.749 3.749 0 0 1-1.72-.474v.048a3.79 3.79 0 0 0 3.04 3.713 3.773 3.773 0 0 1-1.71.065 3.793 3.793 0 0 0 3.538 2.63A7.61 7.61 0 0 1 13 27.8a10.713 10.713 0 0 0 5.806 1.698c6.966.003 10.776-5.768 10.776-10.773z"></path></svg>
+                        <svg class="facebook-icon"  width="84" height="84" viewBox="0 0 44 44" class="ws-c-social-slice__icon ws-c-social-slice__icon--facebook" aria-hidden="true" focusable="false"><path d="M23.23 30.5v-7.754h2.603l.39-3.023H23.23v-1.929c0-.875.243-1.471 1.498-1.471l1.6-.001v-2.703a21.367 21.367 0 0 0-2.332-.119c-2.307 0-3.887 1.408-3.887 3.995v2.228H17.5v3.023h2.609V30.5h3.121z"></path></svg>
+                        <svg class="instagram-icon"  width="84" height="84" viewBox="0 0 44 44" class="ws-c-social-slice__icon ws-c-social-slice__icon--instagram" aria-hidden="true" focusable="false"><path d="M8.733 1.577c2.332 0 2.606.01 3.527.052.853.038 1.314.18 1.622.301.41.16.7.347 1.005.652.305.305.496.596.652 1.005.117.308.263.769.301 1.621.042.922.052 1.196.052 3.528s-.01 2.606-.052 3.528c-.038.852-.18 1.313-.301 1.622-.16.409-.347.7-.652 1.005a2.667 2.667 0 0 1-1.005.651c-.308.118-.77.263-1.622.302-.921.041-1.195.052-3.527.052-2.333 0-2.606-.01-3.528-.052-.853-.039-1.313-.18-1.622-.302a2.71 2.71 0 0 1-1.005-.651 2.667 2.667 0 0 1-.651-1.005c-.118-.309-.264-.77-.302-1.622-.041-.922-.052-1.196-.052-3.528s.01-2.606.052-3.528c.038-.852.18-1.313.302-1.621.16-.41.346-.7.651-1.005a2.667 2.667 0 0 1 1.005-.652c.309-.118.77-.263 1.622-.301.922-.045 1.195-.052 3.528-.052zm0-1.574c-2.37 0-2.669.01-3.6.052-.93.042-1.564.191-2.118.406a4.255 4.255 0 0 0-1.546 1.008A4.33 4.33 0 0 0 .461 3.015c-.215.554-.364 1.188-.406 2.12-.041.93-.052 1.227-.052 3.598 0 2.37.01 2.668.052 3.6.042.929.191 1.563.406 2.121.222.575.523 1.06 1.008 1.546a4.33 4.33 0 0 0 1.546 1.008c.554.215 1.188.364 2.12.405.933.042 1.227.052 3.601.052 2.374 0 2.668-.01 3.6-.052.93-.041 1.564-.19 2.121-.405A4.255 4.255 0 0 0 16.003 16a4.33 4.33 0 0 0 1.008-1.546c.215-.554.364-1.189.406-2.12.041-.933.052-1.228.052-3.601 0-2.374-.01-2.669-.052-3.6-.042-.93-.19-1.564-.406-2.122a4.255 4.255 0 0 0-1.008-1.545A4.33 4.33 0 0 0 14.457.457c-.554-.214-1.188-.363-2.12-.405C11.4.014 11.103.003 8.733.003zM8.733 4.249a4.485 4.485 0 0 0 0 8.968 4.487 4.487 0 0 0 4.484-4.484 4.487 4.487 0 0 0-4.484-4.484zm0 7.395a2.91 2.91 0 1 1-.001-5.822 2.91 2.91 0 0 1 0 5.822zM12.347,4.072a1.047,1.047 0 1,0 2.094,0a1.047,1.047 0 1,0 -2.094,0z" transform="translate(13.5 13.5)"></path></svg>
+                    </div>
+                    <div class="second-social-networks">
+                        <div class="news-container">
+                            <div class="news-title">
+                                <svg class="ws-o-social-secondary-icon__icon" x="0px" y="0px" viewBox="0 0 32 32" height="32px" width="32px" focusable="false"><path class="st0" d="M28.3,10.5l0.6,1.9v16.3H3.2V12.4l0.6-1.9H0.5v21h31v-21H28.3z M16,23.5l13.9-11.2l-1.6-1.9L16,19.8L3.7,10.5   l-1.6,1.9L16,23.5z M28.8,12.3V0.5H3.2v12.1H6V3.3h20.2v9.1h2.7V12.3z"></path></svg>
+                                <h2>NEWS DAILY</h2>
+                            </div>
+                            <div class="news-daily-link">
+                                <a href="">Get news from the BBC in your inbox <br>each weekday morning</a>
+                            </div>
+                        </div>
+                        <div class="news-container">
+                            <div class="news-title">
+                                <svg class="ws-o-social-secondary-icon__icon" x="0px" y="0px" viewBox="6 0 20 32" width="20px" height="32px" focusable="false"><path d="M16,29.9c-0.9,0-1.6-0.7-1.6-1.6c0-0.9,0.7-1.6,1.6-1.6s1.6,0.7,1.6,1.6C17.6,29.3,16.9,29.9,16,29.9z M14,1.8  H18V3H14V1.8z M22.4,24.8H9.6V4.6h12.7V24.8z M7.2,29.9c0,1.2,0.8,2,2,2h13.6c1.3,0,2-0.8,2-2V2.1c0-1.3-0.7-2-2-2H9.2  c-1.2,0-2,0.7-2,2V29.9z"></path></svg>                            <h2>NEWS APP</h2>
+                            </div>
+                            <div class="news-app-link">
+                                <a href="">Find out more about our BBC News <br>App</a>
+                            </div>
+                        </div>
+                        <div class="news-container-list">
+                            <ul class="news-app-list">
+                                <li>
+                                    <p>
+                                        Email us at
+                                        <a href=""> haveyoursay@bbc.co.uk</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Follow
+                                        <a href=""> Have Your Say on Twitter</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="">Why you can trust BBC News</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second-container-footer">
+            <div class="centercontainerfooter">
+                <div class="second-footer-title">
+                    <h2>Explore the BBC</h2>
+                </div>
+                <div class="container-footer-list">
+                    <ul class="footer-first-list">
+                        <li>
+                            <a href="">Home</a>
+                            <a href="">Travel</a>
+                        </li>
+                        <li>
+                            <a href="">News</a>
+                            <a href="">Culture</a>
+                        </li>
+                        <li>
+                            <a href="">Sport</a>
+                            <a href="">Future</a>
+                        </li>
+                        <li>
+                            <a href="">Earth</a>
+                            <a href="">TV</a>
+                        </li>
+                        <li>
+                            <a href="">Reel</a>
+                            <a href="">Weather</a>
+                        </li>
+                        <li>
+                            <a href="">Worklife</a>
+                            <a href="">Sounds</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-line-container">
+                    <div></div>
+                </div>
+                <div class="container-footer-list">
+                    <ul class="footer-second-list">
+                        <li>
+                            <a href="">Term of Use</a>
+                        </li>
+                        <li>
+                            <a href="">About the BBC</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Cookies</a>
+                        </li>
+                        <li>
+                            <a href="">Accessibility Help</a>
+                        </li>
+                        <li>
+                            <a href="">Parental Guidance</a>
+                        </li>
+                        <li>
+                            <a href="">Contact the BBC</a>
+                        </li>
+                        <li>
+                            <a href="">BBC emails for you</a>
+                        </li>
+                        <li>
+                            <a href="">Advertise with us</a>
+                        </li>
+                        <li>
+                            <a href="">Do not share or sell my info</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container-copyright-footer">
+                    <p>
+                        <span>Copyright © 2024 BBC.</span>
+                        The BBC is not responsible for the content of external sites.
+                        <span>Read about our approach to external linking.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
